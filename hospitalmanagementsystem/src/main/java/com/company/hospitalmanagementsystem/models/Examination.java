@@ -11,6 +11,7 @@ public class Examination {
             name = "seq_salary", allocationSize = 1
     )
     private Long id;
+    private String doctorFinCode;
     private String name;
     private String surname;
     private String pastTreatment;

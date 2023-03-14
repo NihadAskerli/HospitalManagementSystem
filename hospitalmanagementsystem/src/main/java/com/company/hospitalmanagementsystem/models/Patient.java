@@ -16,7 +16,7 @@ public class Patient {
     private String email;
     private String phone;
     private String address;
-
+    private String date;
     @ManyToOne
     @JoinColumn(name = "doctor_id", referencedColumnName = "id")
     private Doctor doctor;

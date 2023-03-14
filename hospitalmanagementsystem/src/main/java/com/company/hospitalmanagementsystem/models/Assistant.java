@@ -12,6 +12,7 @@ public class Assistant {
             name = "seq_hospitals", allocationSize = 1
     )
     private Long id;
+    private String finCode;
     private String name;
     private String surname;
     private String cardId;

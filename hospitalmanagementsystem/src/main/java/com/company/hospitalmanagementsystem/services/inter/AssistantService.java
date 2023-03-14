@@ -11,7 +11,7 @@ public interface AssistantService {
 
     Assistant save(Assistant assistant);
 
-    void delete(long id);
+    void delete(String id);
 
-    void update(long id);
+    void updateCardId(String cardId,String finCode);
 }

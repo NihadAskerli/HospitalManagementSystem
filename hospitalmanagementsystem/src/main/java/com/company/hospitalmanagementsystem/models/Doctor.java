@@ -13,11 +13,14 @@ public class Doctor {
             name = "seq_doctors", allocationSize = 1
     )
     private Long id;
+    private String finCode;
     private String name;
     private String surname;
     private String branch;
     private String photo;
     private String cardId;
+    private String unWorking;
+    private String room;
     @ManyToOne
     @JoinColumn(name = "hospital_id",referencedColumnName = "id")
     private Hospital hospital;
